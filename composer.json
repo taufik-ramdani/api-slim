@@ -1,0 +1,16 @@
+{
+	"keywords" : [],
+	"require" : {
+		"ircmaxell/random-lib" : "dev-master",
+		"slim/slim" : "2.*",
+		"analog/analog" : "dev-master",
+		"pda/pheanstalk" : "dev-master",
+		"nategood/commando": "*"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"" : "app/",
+			"Core" : "vendor/core/core/src/"
+		}
+	}
+}
